@@ -82,7 +82,7 @@ $('.beforeAfter').beforeAfter();
 				arrows: false,
 			}
 		}
-		]
+		] 
 	});
 
 	$('.slider-portfolio').slick({
