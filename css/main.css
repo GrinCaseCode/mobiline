@@ -282,8 +282,8 @@ form {
 	left: 0;
 	background: #536369;
 	color: #fff;
-		z-index: 10;
-		display: none;
+	z-index: 10;
+	display: none;
 }
 .header__wrapper {
 	position: relative;
