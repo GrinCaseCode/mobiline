@@ -71,7 +71,6 @@ $('.beforeAfter').beforeAfter();
 		arrows: true,
 		dots: true,
 		infinite: true,
-		touchThreshold: 1000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
