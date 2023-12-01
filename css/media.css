@@ -252,6 +252,31 @@
 	.slider-portfolio .slick-arrow {
 		top: 125px;
 	}
+
+	.modal-wrap {
+		width: 1000px;
+		padding: 30px 55px;
+		padding-bottom: 40px;
+	}
+	.modal-wrap .title-section {
+		padding-bottom: 27px;
+	}
+	.city-list li {
+		padding: 0 3px;
+		margin-bottom: 6px;
+	}
+	.city-list a {
+		font-size: 13px;
+		padding: 7px 30px;
+	}
+	.fancybox-close {
+		top: 7px;
+		right: 9px;
+		font-size: 20px;
+	}
+	.city-list {
+		margin: 0 -3px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -352,6 +377,14 @@
 	}
 	.slider-portfolio .slick-arrow {
 		top: 95px;
+	}
+
+	.modal-wrap {
+		width: 950px;
+		padding: 30px 30px;
+	}
+	.modal-wrap .title-section {
+		padding-bottom: 22px;
 	}
 }
 
@@ -643,6 +676,11 @@
 	.table-prices table tr:last-child td {
 		border: none !important;
 	}
+
+	.city-list a {
+		font-size: 13px;
+		padding: 6px 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -738,6 +776,17 @@
 	.contacts {
 		padding-top: 30px;
 	}
+	.modal-wrap {
+    padding: 25px 15px;
+}
+.city-list li {
+    padding: 0 2px;
+    margin-bottom: 4px;
+}
+.city-list a {
+    font-size: 13px;
+    padding: 5px 13px;
+}
 }
 
 /* Custom, iPhone Retina */

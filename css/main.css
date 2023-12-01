@@ -955,3 +955,82 @@ form {
 .menu-overlay {
 	display: none;
 }
+
+.modal-block {
+	display: none;
+}
+.modal-wrap {
+	padding: 37px 85px;
+	padding-bottom: 50px;
+	width: 1250px;
+	max-width: 100%;
+	margin-left: auto;
+	border-radius: 20px;
+background: #FFF;
+text-align: center;
+color: #2A3950;
+}
+.modal-wrap .title-section {
+	padding-bottom: 40px;
+	text-align: center;
+}
+.city-list {
+	margin: 0 -6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.city-list li {
+	padding: 0 6px;
+	margin-bottom: 11px;
+}
+.city-list a {
+	font-size: 14px;
+	padding: 9px 40px;
+	font-weight: 500;
+	line-height: 140%;
+	border-radius: 6px;
+	color: #2A3950;
+border: 1px solid #0B759D;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.city-list a:hover,
+.city-list .active a {
+	background: #0B759D;
+	color: #fff;
+}
+.fancybox-skin {
+  padding: 0 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.fancybox-close {
+  top: 12px;
+  right: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  font-size: 22px;
+  color: #000;
+  background-image: none !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Font Awesome 5 Pro";
+}
+.fancybox-close::before {
+content: "\f057";
+}
+.fancybox-inner {
+  overflow: visible !important;
+}
