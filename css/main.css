@@ -1037,3 +1037,7 @@ form {
 .beforeAfter {
 	overflow: hidden;
 }
+.fancybox-overlay {
+	opacity: 0.5;
+	background: #2A3950;
+}
