@@ -777,16 +777,16 @@
 		padding-top: 30px;
 	}
 	.modal-wrap {
-    padding: 25px 15px;
-}
-.city-list li {
-    padding: 0 2px;
-    margin-bottom: 4px;
-}
-.city-list a {
-    font-size: 13px;
-    padding: 5px 13px;
-}
+		padding: 25px 15px;
+	}
+	.city-list li {
+		padding: 0 2px;
+		margin-bottom: 4px;
+	}
+	.city-list a {
+		font-size: 13px;
+		padding: 5px 13px;
+	}
 }
 
 /* Custom, iPhone Retina */
